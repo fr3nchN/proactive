@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const App = () => (
+const About = () => (
     <div>
         <Navbar />
         <div className="container">
-            <p>Hello World!</p>
+            <p>About</p>
         </div>
     </div>
 );
 
-export default App;
+export default About;
