@@ -1,13 +1,35 @@
 import React from 'react'
 
-const Value = ({ valueItem }) => (
-    <div>
-        <h2>{ valueItem.name }</h2>
-        <ul>
-            { valueItem.descriptions.map( (description) => (<li key={description}>{description}</li>) ) }
-        </ul>
-    </div>
-);
+const Value = ({ valueItem }) => {
+    const image =
+        <div className="col-6">
+            <img src="images/windmills-orange.jpeg" alt={valueItem.name} className="img-thumbnail" />
+        </div>
+    ;
+    const content =
+        <div className="col-6 text-center">
+            <h2>{ valueItem.name }</h2>
+            <ul className="list-unstyled">
+                { valueItem.descriptions.map( (description) => (<li key={description}>{description}</li>) ) }
+            </ul>
+        </div>
+    ;
+    if ( valueItem.key % 2 === 1 ) {
+        return (
+            <div className="row align-items-center">
+                {image}
+                {content}
+            </div>
+        )
+    } else {
+        return (
+            <div className="row align-items-center">
+                {content}
+                {image}
+            </div>
+        )
+    }
+};
 
 const Values = () => {
     const valuesItems = [

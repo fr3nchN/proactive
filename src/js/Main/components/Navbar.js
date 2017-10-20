@@ -16,6 +16,18 @@ const Navbar = () => (
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item">
+                        <Link className="nav-link" to='/get-started'>Get Started</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to='/releasenotes'>Release Notes</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to='/community'>Community</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to='http://blog.activeeon.com' target="_blank">Blog</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link className="nav-link" to='/about'>About</Link>
                     </li>
                 </ul>
