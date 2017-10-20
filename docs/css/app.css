@@ -16,6 +16,8 @@
     min-height: 30rem;
 }
 
-.text-image {
-    color: #000000;
+.background-blue {
+    background-color: #221F72;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
