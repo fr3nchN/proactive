@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Values from './Values'
 
 const App = () => (
     <div>
-        <Navbar />
         <div className="container">
-            <p>Hello World!</p>
+            <h1>ProActive</h1>
+            <Values/>
         </div>
     </div>
 );

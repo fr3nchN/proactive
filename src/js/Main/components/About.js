@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 const About = () => (
     <div>
-        <Navbar />
         <div className="container">
-            <p>About</p>
+            <h1>About</h1>
         </div>
     </div>
 );
