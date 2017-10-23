@@ -8,7 +8,7 @@ const About = () => (
                 <div className="row">
                     <div className="col-8 text-white">
                         <h1 className="display-1">About us</h1>
-                        <p className="h2">International influence</p>
+                        <p className="h2">France, UK, USA, Germany,<br/> Bulgaria, Senegal</p>
                     </div>
                 </div>
             </div>
@@ -22,25 +22,25 @@ const About = () => (
                     <div className="row">
                         <div className="col-4">
                             <div className="card">
-                                <img className="card-img-top" src="images/activeeon-logo.png" alt="ActiveEon Logo" />
+                                <img className="card-img-top" src="images/about/about-activeeon.png" alt="ActiveEon Logo" />
                                 <div className="card-body">
-                                    <p className="card-text">Provide business features, support and main contributor</p>
+                                    <p className="card-text text-muted">Business support, Business features, Main contributor</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-4">
                             <div className="card">
-                                <img className="card-img-top" src="images/inria.png" alt="Inria Logo" />
+                                <img className="card-img-top" src="images/about/about-inria.png" alt="Inria Logo" />
                                 <div className="card-body">
-                                    <p className="card-text">User and contributor</p>
+                                    <p className="card-text text-muted">User and contributor</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-4">
                             <div className="card">
-                                <img className="card-img-top" src="images/university-nice-sophia.png" alt="Universite Nice Sophia Logo" />
+                                <img className="card-img-top" src="images/about/about-university-sophia.png" alt="Universite Nice Sophia Logo" />
                                 <div className="card-body">
-                                    <p className="card-text">User and contributor</p>
+                                    <p className="card-text text-muted">User and contributor</p>
                                 </div>
                             </div>
                         </div>

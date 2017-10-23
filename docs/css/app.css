@@ -16,8 +16,13 @@
     min-height: 30rem;
 }
 
-.background-blue {
-    background-color: #221F72;
+.background-grey {
+    background-color: #cccccc;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: #221F72;
 }

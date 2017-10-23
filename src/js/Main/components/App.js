@@ -6,9 +6,9 @@ const App = () => (
         <div className="jumbotron jumbotron-fluid background-image">
             <div className="container">
                 <div className="row">
-                    <div className="col-8 text-image">
+                    <div className="col-8 text-white">
                         <h1 className="display-1">ProActive</h1>
-                        <p className="h2">Workflow engine for scheduling, meta-scheduling and orchestration</p>
+                        <p className="h2">Workflow engine for scheduling, <br /> meta-scheduling and orchestration</p>
                     </div>
                 </div>
             </div>

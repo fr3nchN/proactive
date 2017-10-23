@@ -2,12 +2,12 @@ import React from 'react'
 
 const Value = ({ valueItem }) => {
     const image =
-        <div className="col-6">
+        <div className="col-5">
             <img src="images/windmills-orange.jpeg" alt={valueItem.name} className="img-thumbnail" />
         </div>
     ;
     const content =
-        <div className="col-6 text-center">
+        <div className="col-5 text-center">
             <h2>{ valueItem.name }</h2>
             <ul className="list-unstyled">
                 { valueItem.descriptions.map( (description) => (<li key={description}>{description}</li>) ) }
@@ -16,14 +16,14 @@ const Value = ({ valueItem }) => {
     ;
     if ( valueItem.key % 2 === 1 ) {
         return (
-            <div className="row align-items-center">
+            <div className="row align-items-center justify-content-md-center">
                 {image}
                 {content}
             </div>
         )
     } else {
         return (
-            <div className="row align-items-center">
+            <div className="row align-items-center justify-content-md-center">
                 {content}
                 {image}
             </div>
