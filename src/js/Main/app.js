@@ -35,10 +35,10 @@ ReactDOM.render(
         <ConnectedRouter history={history}>
             <div>
                 <Route path="/" component={Navbar}/>
-                <Route exact path="/" component={App}/>
-                <Route path="/about" component={About}/>
-                <Route path="/community" component={Community}/>
-                <Route path="/get-started" component={GetStarted}/>
+                <Route exact path="/proactive" component={App}/>
+                <Route path="/proactive/about" component={About}/>
+                <Route path="/proactive/community" component={Community}/>
+                <Route path="/proactive/get-started" component={GetStarted}/>
                 <Route path="/" component={Footer}/>
             </div>
         </ConnectedRouter>
