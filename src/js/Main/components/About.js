@@ -19,7 +19,7 @@ const About = () => (
                 <div className="col-8">
                     <h2>Acknowledgment</h2>
                     <hr/>
-                    <p>ProActive Parallel Suite is edited by the ActiveEon company, with contributions from the INRIA OASIS Team (INRIA - University of Nice Sophia Antipolis).</p>
+                    <p>The solution is edited by the ActiveEon company, with contributions from the INRIA OASIS Team (INRIA - University of Nice Sophia Antipolis).</p>
                     <div className="row">
                         <div className="col-4">
                             <div className="card">

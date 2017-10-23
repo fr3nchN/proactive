@@ -38252,7 +38252,7 @@ var App = function App() {
                         _react2.default.createElement(
                             'h1',
                             { className: 'display-1' },
-                            'ProActive'
+                            'Activeeon'
                         ),
                         _react2.default.createElement(
                             'p',
@@ -38521,7 +38521,7 @@ var About = function About() {
                     _react2.default.createElement(
                         'p',
                         null,
-                        'ProActive Parallel Suite is edited by the ActiveEon company, with contributions from the INRIA OASIS Team (INRIA - University of Nice Sophia Antipolis).'
+                        'The solution is edited by the ActiveEon company, with contributions from the INRIA OASIS Team (INRIA - University of Nice Sophia Antipolis).'
                     ),
                     _react2.default.createElement(
                         'div',

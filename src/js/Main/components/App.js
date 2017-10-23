@@ -9,7 +9,7 @@ const App = () => (
             <div className="container">
                 <div className="row">
                     <div className="col-8 text-white">
-                        <h1 className="display-1">ProActive</h1>
+                        <h1 className="display-1">Activeeon</h1>
                         <p className="h2">Workflow engine for scheduling, <br /> meta-scheduling and orchestration</p>
                     </div>
                 </div>
