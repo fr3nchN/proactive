@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import links from "./../links"
 
 const Footer = () => (
     <footer>
@@ -11,12 +12,12 @@ const Footer = () => (
                 </a>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="https://www.activeeon.com/" target="_blank">
+                <Link className="nav-link" to={links.external.activeeon.home} target="_blank">
                     <span>ActiveEon</span>
                 </Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="https://try.activeeon.com/" target="_blank">
+                <Link className="nav-link" to={links.external.try.home} target="_blank">
                     <span>Try it</span>
                 </Link>
             </li>

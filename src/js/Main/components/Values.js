@@ -1,4 +1,5 @@
 import React from 'react'
+import links from "./../links"
 
 const Value = ({ valueItem }) => {
     const imagePath = "images/values/"+valueItem.image;

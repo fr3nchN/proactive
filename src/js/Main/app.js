@@ -15,6 +15,7 @@ import About from './components/About';
 import Community from './components/Community';
 import Footer from './components/Footer';
 import GetStarted from "./components/GetStarted";
+import links from "./links"
 
 const history = createHistory();
 const routerHistoryMiddleware = routerMiddleware(history);
@@ -35,10 +36,10 @@ ReactDOM.render(
         <ConnectedRouter history={history}>
             <div>
                 <Route path="/" component={Navbar}/>
-                <Route exact path="/proactive" component={App}/>
-                <Route path="/proactive/about" component={About}/>
-                <Route path="/proactive/community" component={Community}/>
-                <Route path="/proactive/get-started" component={GetStarted}/>
+                <Route exact path={links.home} component={App}/>
+                <Route path={links.about} component={About}/>
+                <Route path={links.community} component={Community}/>
+                <Route path={links.getstarted} component={GetStarted}/>
                 <Route path="/" component={Footer}/>
             </div>
         </ConnectedRouter>

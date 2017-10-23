@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import links from "./../links"
 
 const Community = () => (
     <div>
@@ -21,7 +22,7 @@ const Community = () => (
                     <p className="h4">
                         Pre-made workflows to get you started. Integrate in no time! <br />
                         Do not hesitate to contribute and submit your own.<br/>
-                        <Link to="http://hub.activeeon.com" target="_blank">Activeeon Hub</Link>
+                        <Link to={links.external.hub.home} target="_blank">Activeeon Hub</Link>
                     </p>
                     <ul className="list-unstyled text-muted">
                         <li>Azure, AWS, GCP</li>
@@ -97,7 +98,7 @@ const Community = () => (
                     <h2>Technology</h2>
                     <hr/>
                     <p>
-                        ProActive source code is hosted on <a href="http://github.com/ow2-proactive" target="_blank">Github</a>
+                        ProActive source code is hosted on <a href={links.external.repo.proactive} target="_blank">Github</a>
                     </p>
                     <p>
                         To get access to the current Git repository, and contribute to the next release of ProActive.<br /><br />
@@ -109,7 +110,7 @@ const Community = () => (
                         </code></pre>
                     </p>
                     <p className="h4">
-                        Try it for free <a href="https://try.activeeon.com/" target="_blank">here</a> and follow this tutorial in <Link to="/get-started">3 steps</Link>.
+                        Try it for free <a href={links.external.try.home} target="_blank">here</a> and follow this tutorial in <Link to={links.getstarted}>3 steps</Link>.
                     </p>
                 </div>
             </div>

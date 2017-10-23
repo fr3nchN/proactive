@@ -2626,7 +2626,7 @@ var ScrollSpy = function ($) {
       } else {
         // Set triggered link as active
         $link.addClass(ClassName.ACTIVE);
-        // Set triggered links parents as active
+        // Set triggered links.js parents as active
         // With both <ul> and <nav> markup a parent is the previous sibling of any nav ancestor
         $link.parents(Selector.NAV_LIST_GROUP).prev(Selector.NAV_LINKS + ', ' + Selector.LIST_ITEMS).addClass(ClassName.ACTIVE);
       }

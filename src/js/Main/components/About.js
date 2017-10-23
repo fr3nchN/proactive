@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import links from "./../links"
 
 const About = () => (
     <div>
@@ -60,7 +61,7 @@ const About = () => (
                         </address>
                     </p>
                     <p>
-                        For international addresses and phone <Link to='https://www.activeeon.com/about/contact' target="_blank">here</Link>.
+                        For international addresses and phone <Link to={links.external.activeeon.contact} target="_blank">here</Link>.
                     </p>
                 </div>
             </div>
