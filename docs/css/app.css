@@ -20,7 +20,29 @@
     background-color: #cccccc;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.background-image-datacenter {
+    background: url(../images/background-image-custom/datacenter-and-workflow.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: solid 4px #221F72;
+    border-bottom: solid 4px #221F72;
+}
+
+.background-white {
+    background:rgba(255, 255, 255, 0.7);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 h2 {

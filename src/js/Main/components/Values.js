@@ -1,31 +1,43 @@
 import React from 'react'
 
 const Value = ({ valueItem }) => {
+    const imagePath = "images/values/"+valueItem.image;
     const image =
-        <div className="col-5">
-            <img src="images/windmills-orange.jpeg" alt={valueItem.name} className="img-thumbnail" />
+        <div className="col-4">
+            <img src={imagePath} alt={valueItem.name} className="img-thumbnail value-image" />
         </div>
     ;
     const content =
-        <div className="col-5 text-center">
+        <div className="col-6 text-center">
             <h2>{ valueItem.name }</h2>
             <ul className="list-unstyled">
                 { valueItem.descriptions.map( (description) => (<li key={description}>{description}</li>) ) }
             </ul>
         </div>
     ;
+    let separator = null;
+    if (valueItem.key !== 6) {
+        separator =
+            <div className="col-8">
+                <hr />
+            </div>
+        ;
+    }
+    const rowClass = "row align-items-center justify-content-md-center";
     if ( valueItem.key % 2 === 1 ) {
         return (
-            <div className="row align-items-center justify-content-md-center">
+            <div className={rowClass}>
                 {image}
                 {content}
+                {separator}
             </div>
         )
     } else {
         return (
-            <div className="row align-items-center justify-content-md-center">
+            <div className={rowClass}>
                 {content}
                 {image}
+                {separator}
             </div>
         )
     }
@@ -36,32 +48,38 @@ const Values = () => {
         {
             "key": 1,
             "name": "Controlled Execution and Scheduling",
-            "descriptions": ["User friendly scheduling system", "Error management system", "Priority management", "Event driven execution"]
+            "descriptions": ["User friendly scheduling system", "Error management system", "Priority management", "Event driven execution"],
+            "image": "value-control.jpg"
         },
         {
             "key": 2,
-            "name": "Expressive Workflows",
-            "descriptions": ["Graphical workflows and dependencies", "Powerful replication system", "Variable and file sharing"]
+            "name": "Controlled Scalability",
+            "descriptions": ["Multi, hybrid, private & public cloud", "Dynamic scaling on workload"],
+            "image": "value-scalability.jpg"
         },
         {
             "key": 3,
-            "name": "Controlled Scalability",
-            "descriptions": ["Multi, hybrid, private & public cloud", "Dynamic scaling on workload"]
+            "name": "Expressive Workflows",
+            "descriptions": ["Graphical workflows and dependencies", "Powerful replication system", "Variable and file sharing"],
+            "image": "value-wf.jpg"
         },
         {
             "key": 4,
             "name": "Execution Analysis",
-            "descriptions": ["Check deviations", "Log fetching"]
+            "descriptions": ["Check deviations", "Log fetching"],
+            "image": "value-analysis.jpg"
         },
         {
             "key": 5,
             "name": "Workflow as Code",
-            "descriptions": ["Full revision control", "Integrate into existing CI/CD pipelines", "Catalog"]
+            "descriptions": ["Full revision control", "Integrate into existing CI/CD pipelines", "Catalog"],
+            "image": "value-code.jpg"
         },
         {
             "key": 6,
             "name": "Seamless Integration",
-            "descriptions": ["Transition to the Cloud", "Translate existing workflows", "Comprehensive Rest API"]
+            "descriptions": ["Transition to the Cloud", "Translate existing workflows", "Comprehensive Rest API"],
+            "image": "value-integrate.jpg"
         }
     ];
     return (
