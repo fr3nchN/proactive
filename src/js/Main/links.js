@@ -1,7 +1,6 @@
 const commonpath = "/proactive";
 
 const links = {
-    "commonpath": "",
     "home": commonpath+"/",
     "about": commonpath+"/about",
     "community": commonpath+"/community",
@@ -9,7 +8,13 @@ const links = {
     "external": {
         "activeeon": {
             "home": "https://www.activeeon.com/",
-            "contact": "https://www.activeeon.com/about/contact"
+            "contact": "https://www.activeeon.com/about/contact",
+            "usecases": {
+                "homeoffice": "https://www.activeeon.com/download/activeeon-case-study-homeoffice-uk-visas-application-en.pdf",
+                "legalandgeneral": "https://www.activeeon.com/solvencyII",
+                "komatsu": "https://www.activeeon.com/download/customer-case-study-iot-underground-surface-mining-operation-workflow-automation.pdf",
+                "cnes": "https://www.activeeon.com/azure-poc-in-the-box"
+            }
         },
         "try": {
             "home": "https://try.activeeon.com/",

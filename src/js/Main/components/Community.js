@@ -51,7 +51,7 @@ const Community = () => (
                             <div className="card-body text-center">
                                 <h4 className="card-title">UK Government</h4>
                                 <p className="card-text text-muted">Orchestrate Visa application and criminality rate analysis</p>
-                                <a href="#" className="btn btn-outline-secondary">Download</a>
+                                <a href={links.activeeon.usecases.homeoffice} className="btn btn-outline-secondary">Download</a>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Community = () => (
                             <div className="card-body text-center">
                                 <h4 className="card-title">IoT</h4>
                                 <p className="card-text text-muted">IoT analytics managed through ProActive</p>
-                                <a href="#" className="btn btn-outline-secondary">Download</a>
+                                <a href={links.activeeon.usecases.komatsu} className="btn btn-outline-secondary">Download</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Community = () => (
                             <div className="card-body text-center">
                                 <h4 className="card-title">Insurance & Fintech</h4>
                                 <p className="card-text text-muted">Faster results and transition to the cloud</p>
-                                <a href="#" className="btn btn-outline-secondary">Download</a>
+                                <a href={links.activeeon.usecases.legalandgeneral} className="btn btn-outline-secondary">Download</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const Community = () => (
                             <div className="card-body text-center">
                                 <h4 className="card-title">R&D</h4>
                                 <p className="card-text text-muted">CNES, space agency improves user experience with cloud bursting for Big Compute</p>
-                                <a href="#" className="btn btn-outline-secondary">Download</a>
+                                <a href={links.activeeon.usecases.cnes} className="btn btn-outline-secondary">Download</a>
                             </div>
                         </div>
                     </div>

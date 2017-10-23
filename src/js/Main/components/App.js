@@ -26,7 +26,7 @@ const App = () => (
                             <h2>Try Online</h2>
                             <hr/>
                             <p className="h4">
-                                Try it for free <a href={links.external.try.home} target="_blank">here</a> and follow this <Link to={links.getstarted}>10 min tutorial</Link>.
+                                Try it for free <a href={links.external.try.home} target="_blank">here</a> and follow this tutorial in <Link to={links.getstarted}>3 steps</Link>.
                             </p>
                             <div>
                                 <a className="btn btn-outline-primary" href={links.external.try.home} target="_blank">Try It</a>
