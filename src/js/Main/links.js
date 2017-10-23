@@ -1,4 +1,4 @@
-const commonpath = "/proactive";
+const commonpath = "/proactive/";
 
 const links = {
     "home": commonpath,
