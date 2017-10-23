@@ -5,7 +5,7 @@ import links from "./../links"
 // TODO: Change logo to ProActive
 
 const Navbar = () => (
-    <nav className="head-bar navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <nav className="head-bar navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top border-bottom-grey">
         <div className="container">
             <Link className="navbar-brand" to={links.home}>
                 <img src="images/activeeon-logo.png" alt="ActiveEon" height="50" className="d-inline-block align-top" />

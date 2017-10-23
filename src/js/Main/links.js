@@ -1,10 +1,10 @@
 const commonpath = "/proactive";
 
 const links = {
-    "home": commonpath+"/",
-    "about": commonpath+"/about",
-    "community": commonpath+"/community",
-    "getstarted": commonpath+"/get-started",
+    "home": commonpath,
+    "about": commonpath+"about",
+    "community": commonpath+"community",
+    "getstarted": commonpath+"get-started",
     "external": {
         "activeeon": {
             "home": "https://www.activeeon.com/",

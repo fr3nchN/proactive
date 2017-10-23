@@ -31,6 +31,8 @@ let store = createStore(
     )
 );
 
+console.log("links", links);
+
 ReactDOM.render(
     <Provider store={store} >
         <ConnectedRouter history={history}>

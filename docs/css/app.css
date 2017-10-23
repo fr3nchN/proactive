@@ -48,3 +48,11 @@
 h2 {
     color: #221F72;
 }
+
+.border-bottom-grey {
+    border-bottom: solid 2px #cccccc;
+}
+
+body {
+    padding-top: 64px;
+}

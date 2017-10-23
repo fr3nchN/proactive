@@ -50,16 +50,16 @@ const About = () => (
                     <h2>Contact</h2>
                     <hr/>
                     <p>For specific enquiries, demos, documentation, etc. do not hesitate to <a href="mailto:contact@activeeon.com?Subject=[ProActive]%20Request%20for%20information" target="_top">contact us</a>.</p>
-                    <p>
-                        <address>
-                            <strong>ActiveEon</strong><br/>
-                            12000 route des lucioles<br/>
-                            Les Algorithmes, Pythagore B2<br/>
-                            06560 Sophia Antipolis<br/>
-                            FRANCE<br/>
-                            <abbr title="Phone">P:</abbr> +33 988 777 660
-                        </address>
-                    </p>
+
+                    <address>
+                        <strong>ActiveEon</strong><br/>
+                        12000 route des lucioles<br/>
+                        Les Algorithmes, Pythagore B2<br/>
+                        06560 Sophia Antipolis<br/>
+                        FRANCE<br/>
+                        <abbr title="Phone">P:</abbr> +33 988 777 660
+                    </address>
+
                     <p>
                         For international addresses and phone <Link to={links.external.activeeon.contact} target="_blank">here</Link>.
                     </p>
