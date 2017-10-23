@@ -109,7 +109,7 @@ const Community = () => (
                         </code></pre>
                     </p>
                     <p className="h4">
-                        Try it for free <a href="https://try.activeeon.com/" target="_blank">here</a> and follow this <Link to="/get-started">10 min tutorial</Link>.
+                        Try it for free <a href="https://try.activeeon.com/" target="_blank">here</a> and follow this tutorial in <Link to="/get-started">3 steps</Link>.
                     </p>
                 </div>
             </div>
