@@ -16,7 +16,7 @@ const App = () => (
                 </div>
             </div>
         </div>
-        <div className="container">
+        <div className="container mb-3">
             <Values/>
         </div>
         <div className="background-home-request">
