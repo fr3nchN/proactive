@@ -4,7 +4,8 @@ import links from "./../links"
 
 const Community = () => (
     <div>
-        <div className="jumbotron jumbotron-fluid background-image">
+        <div className="background-orange">
+        <div className="jumbotron jumbotron-fluid background-image-community">
             <div className="container">
                 <div className="row">
                     <div className="col-8 text-white">
@@ -14,6 +15,7 @@ const Community = () => (
                 </div>
             </div>
         </div>
+        </div>
         <div className="container">
             <div className="row justify-content-md-center">
                 <div className="col-8 text-center">
@@ -22,8 +24,8 @@ const Community = () => (
                     <p className="h4">
                         Pre-made workflows to get you started. Integrate in no time! <br />
                         Do not hesitate to contribute and submit your own.<br/>
-                        <Link to={links.external.hub.home} target="_blank">Activeeon Hub</Link>
                     </p>
+                    <Link className="btn btn-outline-primary" to={links.external.hub.home} target="_blank">Activeeon Hub</Link>
                     <ul className="list-unstyled text-muted">
                         <li>Azure, AWS, GCP</li>
                         <li>OpenStack, VmWare</li>
@@ -36,7 +38,7 @@ const Community = () => (
                 </div>
             </div>
         </div>
-        <div className="background-grey">
+        <div className="background-usecase">
             <div className="container-fluid">
                 <div className="row justify-content-md-center">
                     <div className="col-8 text-center">

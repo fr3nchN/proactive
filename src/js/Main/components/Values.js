@@ -4,12 +4,12 @@ import links from "./../links"
 const Value = ({ valueItem }) => {
     const imagePath = "images/values/"+valueItem.image;
     const image =
-        <div className="col-4">
-            <img src={imagePath} alt={valueItem.name} className="img-thumbnail value-image" />
+        <div className="col-md-4">
+            <img src={imagePath} alt={valueItem.name} className="value-image" />
         </div>
     ;
     const content =
-        <div className="col-6 text-center">
+        <div className="col-md-6 text-center">
             <h2>{ valueItem.name }</h2>
             <ul className="list-unstyled">
                 { valueItem.descriptions.map( (description) => (<li key={description}>{description}</li>) ) }
@@ -19,7 +19,7 @@ const Value = ({ valueItem }) => {
     let separator = null;
     if (valueItem.key !== 6) {
         separator =
-            <div className="col-8">
+            <div className="col-md-8">
                 <hr />
             </div>
         ;
@@ -50,37 +50,37 @@ const Values = () => {
             "key": 1,
             "name": "Controlled Execution and Scheduling",
             "descriptions": ["User friendly scheduling system", "Error management system", "Priority management", "Event driven execution"],
-            "image": "value-control.jpg"
+            "image": "value-control.png"
         },
         {
             "key": 2,
             "name": "Controlled Scalability",
             "descriptions": ["Multi, hybrid, private & public cloud", "Dynamic scaling on workload"],
-            "image": "value-scalability.jpg"
+            "image": "value-scalable.png"
         },
         {
             "key": 3,
             "name": "Expressive Workflows",
             "descriptions": ["Graphical workflows and dependencies", "Powerful replication system", "Variable and file sharing"],
-            "image": "value-wf.jpg"
+            "image": "value-wf.png"
         },
         {
             "key": 4,
             "name": "Execution Analysis",
             "descriptions": ["Check deviations", "Log fetching"],
-            "image": "value-analysis.jpg"
+            "image": "value-monitor.png"
         },
         {
             "key": 5,
             "name": "Workflow as Code",
             "descriptions": ["Full revision control", "Integrate into existing CI/CD pipelines", "Catalog"],
-            "image": "value-code.jpg"
+            "image": "value-wfascode.png"
         },
         {
             "key": 6,
             "name": "Seamless Integration",
             "descriptions": ["Transition to the Cloud", "Translate existing workflows", "Comprehensive Rest API"],
-            "image": "value-integrate.jpg"
+            "image": "value-integrate.png"
         }
     ];
     return (

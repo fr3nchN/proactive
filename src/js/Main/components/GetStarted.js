@@ -3,7 +3,7 @@ import links from "./../links"
 
 const GetStarted = () => (
     <div>
-        <div className="jumbotron jumbotron-fluid background-image">
+        <div className="jumbotron jumbotron-fluid background-image-getstarted">
             <div className="container">
                 <div className="row">
                     <div className="col-8 text-white">

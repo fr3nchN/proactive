@@ -1,5 +1,6 @@
 import React from 'react'
 import Values from './Values'
+import Features from './Features'
 import { Link } from 'react-router-dom'
 import links from "./../links"
 
@@ -18,7 +19,28 @@ const App = () => (
         <div className="container">
             <Values/>
         </div>
-        <div className="background-image-datacenter">
+        <div className="background-home-request">
+            <div className="background-orange-transparent">
+                <div className="container">
+                    <div className="row row-setheight align-items-center">
+                        <div className="col-6 text-center">
+                            <h2 className="display-3 text-white">Get in touch</h2>
+                            <a href="mailto:contact@activeeon.com?Subject=[ProActive]%20Request%20for%20information" className="btn btn-light">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="container mt-4">
+            <div className="row justify-content-md-center">
+                <div className="col-8 text-center">
+                    <h2>A few Features</h2>
+                    <hr />
+                </div>
+            </div>
+            <Features />
+        </div>
+        <div className="background-home-try">
             <div className="background-white">
                 <div className="container">
                     <div className="row justify-content-md-center">

@@ -7,6 +7,62 @@
     min-height: 30rem;
 }
 
+.background-home-request {
+    background: url(../images/photo/photo1-guido.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.row-setheight {
+    min-height: 30rem;
+}
+
+.background-orange-transparent {
+    background: #E86D1F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #E86D1F, #221F72); /* Standard syntax */
+    min-height: 30rem;
+    opacity: 0.6;
+}
+
+.background-image-getstarted {
+    background: #E86D1F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #E86D1F, #221F72); /* Standard syntax */
+}
+
+.background-orange {
+    background: #E86D1F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg, #E86D1F, #221F72); /* Standard syntax */
+}
+
+.background-image-community {
+    background: url(../images/connect.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.background-usecase {
+    background: #eeeeee;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .background-image-worldmap {
     background: url(../images/worldmap-influence.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -16,16 +72,12 @@
     min-height: 30rem;
 }
 
-.background-grey {
-    background-color: #cccccc;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.background-image-datacenter {
-    background: url(../images/background-image-custom/datacenter-and-workflow.png) no-repeat center center fixed;
+.background-home-try {
+    background: #E86D1F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #E86D1F, #221F72); /* Standard syntax */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,4 +107,17 @@ h2 {
 
 body {
     padding-top: 64px;
+}
+
+.value-image {
+    height: 10rem;
+}
+
+footer {
+    color: #eeeeee;
+    background: #221F72;
+}
+
+footer a {
+    color: #eeeeee;
 }
