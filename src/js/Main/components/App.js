@@ -1,6 +1,7 @@
 import React from 'react'
 import Values from './Values'
 import Features from './Features'
+import LatestNews from './LatestNews'
 import { Link } from 'react-router-dom'
 import links from "./../links"
 
@@ -14,6 +15,17 @@ const App = () => (
                         <p className="h2">Workflow engine for scheduling, <br /> meta-scheduling and orchestration</p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div className="background-orange mb-5 pt-3">
+            <div className="container">
+                <div className="row justify-content-md-center">
+                    <div className="col-8 text-center">
+                        <h2 className="text-white">Latest News</h2>
+                        <hr/>
+                    </div>
+                </div>
+                <LatestNews />
             </div>
         </div>
         <div className="container mb-3">
