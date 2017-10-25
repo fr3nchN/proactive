@@ -58,6 +58,43 @@ const App = () => (
                 </div>
             </div>
         </div>
+        <div className="background-white">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-md-8">
+                        <div className="row">
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-aws.png" alt="aws" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-azure.png" alt="azure" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-capgemini.png" alt="capgemini" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-devoteam.png" alt="devoteam" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-docker.png" alt="docker" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-gcp.png" alt="gcp" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-sap.png" alt="sap" className="img-thumbnail mb-2"/>
+                            </div>
+                            <div className="col-3">
+                                <img src="images/alliance/alliance-suse.png" alt="suse" className="img-thumbnail mb-2"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <h2 className="display-4">Strategic Alliances</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 );
 
