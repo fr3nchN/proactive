@@ -62,8 +62,8 @@ const Community = () => (
         <div className="background-home-try">
             <div className="background-white">
                 <div className="container">
-                    <div className="row justify-content-md-center">
-                        <div className="col-8 text-center">
+                    <div className="row">
+                        <div className="col-8">
                             <h2>Technology</h2>
                             <hr/>
                             <p>
@@ -72,9 +72,7 @@ const Community = () => (
                             <p>
                                 To get access to the current Git repository, and contribute to the next release of ProActive.<br /><br />
                                 <pre><code>
-                                    git clone https://github.com/ow2-proactive/scheduling.git scheduling
-                                </code></pre>
-                                <pre><code>
+                                    git clone https://github.com/ow2-proactive/scheduling.git scheduling <br />
                                     git clone git@github.com:ow2-proactive/scheduling.git scheduling
                                 </code></pre>
                             </p>
