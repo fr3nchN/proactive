@@ -109,10 +109,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.usecase-card {
-    min-height: 22rem;
-}
-
 .background-image-worldmap {
     background: url(../images/worldmap-influence.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -135,8 +131,6 @@ h2 {
     min-height: 20rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     border-top: solid 4px #221F72;
     border-bottom: solid 4px #221F72;
 }

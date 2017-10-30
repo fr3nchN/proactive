@@ -4,7 +4,7 @@ import links from "./../links"
 
 const Footer = () => (
     <footer>
-        <div className="container">
+        <div className="container pt-2">
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <a className="nav-link">

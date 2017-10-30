@@ -1,4 +1,5 @@
 const commonpath = "/proactive/";
+// const commonpath = "/";
 
 const links = {
     "home": commonpath,
@@ -10,6 +11,8 @@ const links = {
         "activeeon": {
             "home": "https://www.activeeon.com/",
             "contact": "https://www.activeeon.com/about/contact",
+            "customers": "https://www.activeeon.com/about/customers",
+            "events": "https://www.activeeon.com/about/news-events",
             "usecases": {
                 "homeoffice": "https://www.activeeon.com/download/activeeon-case-study-homeoffice-uk-visas-application-en.pdf",
                 "legalandgeneral": "https://www.activeeon.com/solvencyII",
@@ -35,7 +38,8 @@ const links = {
             "home": "http://hub.activeeon.com"
         },
         "repo": {
-            "proactive": "http://github.com/ow2-proactive"
+            "proactive": "http://github.com/ow2-proactive",
+            "bugtracker": "https://github.com/ow2-proactive/scheduling/issues"
         },
         "doc": {
             "home": "https://www.activeeon.com/public_content/documentation/"
