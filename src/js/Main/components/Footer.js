@@ -4,7 +4,7 @@ import links from "./../links"
 
 const Footer = () => (
     <footer>
-        <hr />
+        <div className="container">
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <a className="nav-link">
@@ -22,6 +22,19 @@ const Footer = () => (
                 </Link>
             </li>
         </ul>
+        <hr />
+        <div className="row justify-content-center">
+            <div className="col-2">
+                <img className="card-img-top" src="images/about/about-activeeon.png" alt="ActiveEon Logo" />
+            </div>
+            <div className="col-2">
+                <img className="card-img-top" src="images/about/about-inria.png" alt="Inria Logo" />
+            </div>
+            <div className="col-2">
+                <img className="card-img-top" src="images/about/about-university-sophia.png" alt="Universite Nice Sophia Logo" />
+            </div>
+        </div>
+        </div>
     </footer>
 );
 

@@ -4,13 +4,13 @@ import links from "./../links"
 const Value = ({ valueItem }) => {
     const imagePath = "images/values/"+valueItem.image;
     const image =
-        <div className="col-md-4">
-            <img src={imagePath} alt={valueItem.name} className="value-image" />
+        <div className="col-md-3">
+            <img src={imagePath} alt={valueItem.name} className="img-fluid" />
         </div>
     ;
     const content =
-        <div className="col-md-6 text-center">
-            <h2>{ valueItem.name }</h2>
+        <div className="col-md-5 text-center">
+            <h3 className="h4 text-blue">{ valueItem.name }</h3>
             <ul className="list-unstyled">
                 { valueItem.descriptions.map( (description) => (<li key={description}>{description}</li>) ) }
             </ul>
@@ -85,6 +85,13 @@ const Values = () => {
     ];
     return (
         <div>
+            <div className="row mb-5 justify-content-md-center">
+                <div className="col-md-8 text-center">
+                    <h2>ProActive from Activeeon</h2>
+                    <p className="h4">Job Scheduling, Workload Automation, Orchestration & Metascheduling on-premises and on all clouds</p>
+                    <p className="h5">Workflow engine to automate and orchestrate your business processes</p>
+                </div>
+            </div>
             { valuesItems.map((valueItem) => (
                 <Value key={valueItem.key} valueItem={valueItem} />
             )) }

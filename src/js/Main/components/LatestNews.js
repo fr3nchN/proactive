@@ -4,7 +4,7 @@ import links from "./../links"
 const News = ({ item }) => {
     return (
         <div className="col-sm-4 text-center">
-            <h3 className="h4">{item.title}</h3>
+            <h3 className="h4 text-orange">{item.title}</h3>
             <p>{item.text}</p>
         </div>
     )
@@ -29,10 +29,18 @@ const LatestNews = () => {
         }
     ];
     return (
-        <div className="row text-white">
-            { items.map((item) => (
-                <News key={item.title} item={item} />
-            )) }
+        <div>
+            <div className="row justify-content-md-center">
+                <div className="col-md-8 text-center">
+                    <h2>Latest News</h2>
+                    <hr />
+                </div>
+            </div>
+            <div className="row">
+                { items.map((item) => (
+                    <News key={item.title} item={item} />
+                )) }
+            </div>
         </div>
     )
 };

@@ -5,6 +5,7 @@ const links = {
     "about": commonpath+"about",
     "community": commonpath+"community",
     "getstarted": commonpath+"get-started",
+    "programming": commonpath+"programming",
     "external": {
         "activeeon": {
             "home": "https://www.activeeon.com/",
@@ -14,6 +15,12 @@ const links = {
                 "legalandgeneral": "https://www.activeeon.com/solvencyII",
                 "komatsu": "https://www.activeeon.com/download/customer-case-study-iot-underground-surface-mining-operation-workflow-automation.pdf",
                 "cnes": "https://www.activeeon.com/azure-poc-in-the-box"
+            },
+            "product": {
+                "workflowsscheduling": "https://www.activeeon.com/workflows-scheduling",
+                "bigdata": "https://www.activeeon.com/big-data-automation",
+                "cloudautomation": "https://www.activeeon.com/cloud-automation",
+                "programming": "https://www.activeeon.com/about/resources#datasheets"
             }
         },
         "try": {

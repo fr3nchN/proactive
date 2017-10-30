@@ -1,10 +1,43 @@
+body {
+    padding-top: 64px;
+}
+
+footer {
+    background: #cccccc;
+}
+
+footer a {
+    color: #444444;
+}
+
+.background-orange-transparent {
+    background: #E86D1F; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-45deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg, #E86D1F, #221F72); /* Standard syntax */
+    min-height: 25rem;
+    opacity: 0.7;
+}
+
+.background-gray {
+    background: rgb(204, 204, 204);
+}
+
+.background-lightgray {
+    background: #ECEFF1;
+}
+
+.background-verylightgray {
+    background: #F5F5F5;
+}
+
 .background-image {
     background: url(../images/windmills-orange.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 30rem;
 }
 
 .background-home-request {
@@ -16,18 +49,31 @@
     min-height: 30rem;
 }
 
-.row-setheight {
-    min-height: 30rem;
+.text-orange {
+    color: #E86D1F;
 }
 
-.background-orange-transparent {
-    background: #E86D1F; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #E86D1F, #221F72); /* Standard syntax */
+.text-blue {
+    color: #221F72;
+}
+
+h2 {
+    color: #221F72;
+}
+
+.border-bottom-grey {
+    border-bottom: solid 2px #cccccc;
+}
+
+.border-top-grey {
+    border-top: solid 2px #cccccc;
+}
+
+
+
+
+.row-setheight {
     min-height: 30rem;
-    opacity: 0.6;
 }
 
 .background-image-getstarted {
@@ -40,7 +86,7 @@
 
 .background-orange {
     background: #E86D1F; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-45deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(45deg, #E86D1F, #221F72); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(-45deg, #E86D1F, #221F72); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(-45deg, #E86D1F, #221F72); /* For Firefox 3.6 to 15 */
     background: linear-gradient(-45deg, #E86D1F, #221F72); /* Standard syntax */
@@ -103,28 +149,4 @@
 
 .acknowledgment-card {
     min-height: 13rem;
-}
-
-h2 {
-    color: #221F72;
-}
-
-.border-bottom-grey {
-    border-bottom: solid 2px #cccccc;
-}
-
-body {
-    padding-top: 64px;
-}
-
-.value-image {
-    height: 10rem;
-}
-
-footer {
-    background: #cccccc;
-}
-
-footer a {
-    color: #444444;
 }
