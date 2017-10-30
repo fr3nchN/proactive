@@ -6,6 +6,7 @@ const links = {
     "about": commonpath+"about",
     "community": commonpath+"community",
     "getstarted": commonpath+"get-started",
+    "releasenotes": commonpath+"release-notes",
     "programming": commonpath+"programming",
     "external": {
         "activeeon": {

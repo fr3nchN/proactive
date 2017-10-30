@@ -26,6 +26,9 @@ const Navbar = () => (
                         <Link className="nav-link" to={links.community}>Community</Link>
                     </li>
                     <li className="nav-item">
+                        <Link className="nav-link" to={links.releasenotes}>Release Notes</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link className="nav-link" to={links.external.blog.home} target="_blank">Blog</Link>
                     </li>
                     <li className="nav-item">

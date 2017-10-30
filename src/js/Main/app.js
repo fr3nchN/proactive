@@ -15,6 +15,7 @@ import About from './components/About';
 import Community from './components/Community';
 import Footer from './components/Footer';
 import GetStarted from "./components/GetStarted";
+import ReleaseNotes from "./components/ReleaseNotes";
 import Programming from "./components/Programming";
 import links from "./links"
 
@@ -40,6 +41,7 @@ ReactDOM.render(
             <div>
                 <Route path="/" component={Navbar}/>
                 <Route exact path={links.home} component={App}/>
+                <Route path={links.releasenotes} component={ReleaseNotes}/>
                 <Route path={links.about} component={About}/>
                 <Route path={links.community} component={Community}/>
                 <Route path={links.getstarted} component={GetStarted}/>
