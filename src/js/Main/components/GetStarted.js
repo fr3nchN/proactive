@@ -6,7 +6,7 @@ const GetStarted = () => (
         <div className="jumbotron jumbotron-fluid background-image-getstarted">
             <div className="container">
                 <div className="row">
-                    <div className="col-8 text-white">
+                    <div className="col-md-8 text-white">
                         <h1 className="display-1">Get Started</h1>
                         <p className="h2">In just 3 steps, submit your first workflow</p>
                     </div>
@@ -15,7 +15,7 @@ const GetStarted = () => (
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-8">
+                <div className="col-md-8">
                     <h2>Step 1: Register and Login</h2>
                     <hr />
                     <p>

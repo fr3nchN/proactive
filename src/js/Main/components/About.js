@@ -7,21 +7,21 @@ const About = () => (
         <div className="jumbotron jumbotron-fluid background-image-worldmap">
             <div className="container">
                 <div className="row">
-                    <div className="col-8 text-white">
+                    <div className="col-md-8 text-white">
                         <h1 className="display-1">About us</h1>
-                        <p className="h2">France, UK, USA, Germany,<br/> Bulgaria, Senegal</p>
+                        <p className="h2">France, UK, USA, <br />Germany, Senegal</p>
                     </div>
                 </div>
             </div>
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-8">
+                <div className="col-md-8">
                     <h2>Acknowledgment</h2>
                     <hr/>
                     <p>The solution is edited by the ActiveEon company, with contributions from the INRIA OASIS Team (INRIA - University of Nice Sophia Antipolis).</p>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <div className="card acknowledgment-card">
                                 <img className="card-img-top" src="images/about/about-activeeon.png" alt="ActiveEon Logo" />
                                 <div className="card-body">
@@ -29,7 +29,7 @@ const About = () => (
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <div className="card acknowledgment-card">
                                 <img className="card-img-top" src="images/about/about-inria.png" alt="Inria Logo" />
                                 <div className="card-body">
@@ -37,7 +37,7 @@ const About = () => (
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4">
                             <div className="card acknowledgment-card">
                                 <img className="card-img-top" src="images/about/about-university-sophia.png" alt="Universite Nice Sophia Logo" />
                                 <div className="card-body">

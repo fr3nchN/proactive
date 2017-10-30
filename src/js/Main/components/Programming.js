@@ -69,11 +69,23 @@ const Programming = () => (
                 </div>
             </div>
         </div>
-        <div className="container">
-            <div className="card-columns">
-                <div className="card text-center">
+        <div className="container mb-3">
+            <div className="row align-items-center justify-content-center">
+                <div className="col-md-3">
                     <img className="card-img-top" src="images/proactive-programming.png" alt="ProActive Programming" />
                 </div>
+                <div className="col-md-8">
+                    <p className="h5">
+                        ProActive Programming is at the core of the solution and provide the base for an efficient distribution and parallelization.
+                    </p>
+                    <p className="h5">
+                        It is the foundation of the high level solutions: ProActive Workflows & Scheduling, ProActive Big Data Automation and ProActive Cloud Automation.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div className="container">
+            <div className="card-columns">
                 {features.map(feature => (
                     <div key={feature.title} className="card">
                         <div className="card-body">
