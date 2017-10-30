@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import links from "./../links"
 
 const ProActiveProduct = ({ item }) => {
@@ -11,7 +12,7 @@ const ProActiveProduct = ({ item }) => {
             <p className="text-muted"><small>
                 <ul className="list-unstyled">
                     {item.descriptions.map((desc) => (<li key={desc}>{desc}</li>))}
-                    {(item.id === 4) ? (<li><a href={item.link}>more...</a></li>) : (<li><a href={item.link} target="_blank">more...</a></li>)}
+                    {(item.key === 4) ? (<li><Link to={item.link}>more...</Link></li>) : (<li><a href={item.link} target="_blank">more...</a></li>)}
                 </ul>
             </small></p>
         </div>

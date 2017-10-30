@@ -15,6 +15,7 @@ import About from './components/About';
 import Community from './components/Community';
 import Footer from './components/Footer';
 import GetStarted from "./components/GetStarted";
+import Programming from "./components/Programming";
 import links from "./links"
 
 const history = createHistory();
@@ -42,6 +43,7 @@ ReactDOM.render(
                 <Route path={links.about} component={About}/>
                 <Route path={links.community} component={Community}/>
                 <Route path={links.getstarted} component={GetStarted}/>
+                <Route path={links.programming} component={Programming}/>
                 <Route path="/" component={Footer}/>
             </div>
         </ConnectedRouter>

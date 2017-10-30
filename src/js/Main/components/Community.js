@@ -101,12 +101,12 @@ const Community = () => (
                                 ProActive source code is hosted on <a href={links.external.repo.proactive} target="_blank">Github</a>
                             </p>
                             <p>
-                                To get access to the current Git repository, and contribute to the next release of ProActive.<br /><br />
-                                <pre className="background-white pl-2 pr-2"><code>
-                                    git clone https://github.com/ow2-proactive/scheduling.git scheduling <br />
-                                    git clone git@github.com:ow2-proactive/scheduling.git scheduling
-                                </code></pre>
+                                To get access to the current Git repository, and contribute to the next release of ProActive.
                             </p>
+                            <pre className="background-white pl-2 pr-2"><code>
+                                git clone https://github.com/ow2-proactive/scheduling.git scheduling <br />
+                                git clone git@github.com:ow2-proactive/scheduling.git scheduling
+                            </code></pre>
                         </div>
                         <div className="col-md-4">
                             <p className="h4 text-center">
