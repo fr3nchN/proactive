@@ -41,7 +41,7 @@ const Community = () => (
         </div>
         <div className="background-usecase">
             <div className="container-fluid">
-                                <UseCases />
+                <UseCases />
             </div>
         </div>
         <div className="container">

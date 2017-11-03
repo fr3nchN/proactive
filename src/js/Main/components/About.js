@@ -9,7 +9,7 @@ const About = () => (
                 <div className="row">
                     <div className="col-md-8 text-white">
                         <h1 className="display-1">About us</h1>
-                        <p className="h2">France, UK, USA, <br />Germany, Senegal</p>
+                        <p className="h2">France, UK, USA, <br />Germany, Switzerland, <br />Canada, Senegal</p>
                     </div>
                 </div>
             </div>
