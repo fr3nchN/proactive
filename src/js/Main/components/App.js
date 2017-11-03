@@ -15,7 +15,8 @@ const App = () => (
                     <div className="row">
                         <div className="col-md-8 text-white">
                             <h1 className="display-1">Activeeon</h1>
-                            <p className="h2 mb-4">Workflow engine for scheduling, <br /> meta-scheduling and orchestration</p>
+                            <p className="h2 mb-4">Job Scheduling, Workload Automation, Orchestration & Metascheduling  <br /> on-premises and on all clouds.</p>
+                            <p className="h4 mb-4">Open source workflow engine</p>
                             <Link className="btn btn-outline-light" to={links.getstarted}>Try it in 3 steps</Link>
                         </div>
                     </div>

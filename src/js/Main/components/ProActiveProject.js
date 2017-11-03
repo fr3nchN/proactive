@@ -57,17 +57,24 @@ const ProActiveProject = () => {
     return (
         <div>
             <div className="row mt-5 mb-5 align-items-center">
-                <div className="col-lg-7">
+                <div className="col-lg-7 background-image-ow2">
+                    {/*<h2><img src="images/ow2_logo.svg" alt="ow2" />Project Overview</h2>*/}
                     <h2>Project Overview</h2>
                     <hr />
                     <p>
-                        ProActive Parallel Suite is an innovative project, member of the OW2 Open Source Community, for <strong>acceleration and orchestration</strong> of applications, <strong>seamlessly integrated with the management of high-performance Clouds</strong> (Private and Public with bursting capabilities).
+                        ProActive Parallel Suite is an innovative project, member of the <a href={links.external.ow2.proactive} target="_blank">OW2 Open Source Community</a>, for <strong>acceleration and orchestration</strong> of applications, <strong>seamlessly integrated with the management of high-performance Clouds</strong> (Private and Public with bursting capabilities).
                     </p>
                     <p>
                         ProActive Parallel Suite platforms features High-Performance Workflows and Application Parallelization, together with enterprise Scheduling and Orchestration coupled with the dynamic management of private Heterogeneous Grids and Clouds. With a ProActive platform, our users tackle at once the acceleration and orchestration of all demanding enterprise applications, and the management of their own Enterprise Cloud.
                     </p>
                     <p>
                         Professional support and services are delivered by <a href={links.external.activeeon.home} target="_blank">ActiveEon company.</a>
+                    </p>
+                    <p className="text-center">
+                        <hr/>
+                        <a href={links.external.ow2.proactive} target="_blank">
+                            <img src="images/ow2_logo.svg" alt="ow2" className="image-ow2"/>
+                        </a>
                     </p>
                 </div>
                 <div className="col-lg-5">

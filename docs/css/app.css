@@ -144,3 +144,8 @@ h2 {
 .acknowledgment-card {
     min-height: 13rem;
 }
+
+.image-ow2 {
+    opacity: 0.8;
+    max-height: 2rem;
+}

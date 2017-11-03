@@ -1,5 +1,5 @@
-const commonpath = "/proactive/";
-// const commonpath = "/";
+// const commonpath = "/proactive/";
+const commonpath = "/";
 
 const links = {
     "home": commonpath,
@@ -44,6 +44,9 @@ const links = {
         },
         "doc": {
             "home": "https://www.activeeon.com/public_content/documentation/"
+        },
+        "ow2" :{
+            "proactive": "https://projects.ow2.org/bin/view/proactive/"
         }
     }
 };
