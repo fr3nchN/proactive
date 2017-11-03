@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import links from "./../links"
 import ContentLatestNews from "./../../../content/homepage/ContentLatestNews"
 
@@ -24,6 +25,12 @@ const LatestNews = () => {
                 { ContentLatestNews.map((item) => (
                     <News key={item.title} item={item} />
                 )) }
+            </div>
+            <div className="row justify-content-md-center">
+                <div className="col-md-8 text-center">
+                    <hr />
+                    <Link className="btn btn-outline-secondary" to={links.releasenotes}>Latest Releases</Link>
+                </div>
             </div>
         </div>
     )
