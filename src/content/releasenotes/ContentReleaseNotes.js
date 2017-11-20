@@ -2,6 +2,23 @@ import links from "./../../js/Main/links"
 
 const ContentReleaseNotes = [
     {
+        "version": "7.32.1",
+        "date": new Date("2017-11-15"),
+        "communityitems": [
+            "Python script engine",
+            "Great boost on the usability of the studio portal",
+        ],
+        "enterpriseitems": [
+            "Workflow catalog with unique names",
+            "Data Streaming IT Workflow",
+            "DataVisualization::Visdom",
+            "Proper Task Variables Inheritance",
+            "ProActive Packages",
+            "Proper description of fields and tasks in the studio",
+            "Ability to select the bucket to use for the templates"
+        ]
+    },
+    {
         "version": "7.30",
         "date": new Date("2017-10-01"),
         "communityitems": [
